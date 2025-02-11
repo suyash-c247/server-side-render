@@ -40,3 +40,29 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.editor-content {
+  border: 1px solid #ddd;
+  padding: 10px;
+  min-height: 150px;
+}
